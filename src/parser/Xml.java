@@ -20,7 +20,7 @@ public class Xml extends Parsers{
             while((line = bufferedReader.readLine()) != null){
                 line = line.trim();
                 if (!line.startsWith("<?") && !line.startsWith("<Tic") && !line.startsWith("</")){
-                    if (line.startsWith("<A")){
+                    if (line.startsWith("<O")){
                         Ticket.clear();
                         String[] split = line.split(">");
                         String[] split2 = split[1].split("<");
