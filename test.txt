@@ -1,0 +1,4 @@
+autor, titel, beschreibung
+raphael,broken mouse,Hello, my mouse is broken!!! Please fix it asap
+daniel,broken keyboard,Hello, my kb is broken!!! Please fix it asap
+jannek,broken display,Hello, my display is broken!!! Please fix it asap

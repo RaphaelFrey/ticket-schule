@@ -1,0 +1,11 @@
+{
+  "tickets": [
+  {
+    "name": "raphael",
+    "heading": "broken mouse",
+    "description": "Hello, my mouse is broken!!! Please fix it asap",
+    "date": "22.12.2022 21:45:24",
+    "status": "Open"
+  }
+ ]
+}

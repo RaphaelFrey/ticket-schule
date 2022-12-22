@@ -1,0 +1,19 @@
+{
+  "tickets": [
+    {
+      "name": "raphael",
+      "header": "broken mouse",
+      "description" : "Hello, my mouse is broken!!! Please fix it asap"
+    },
+    {
+      "name": "daniel",
+      "header": "broken keyboard",
+      "description" : "Hello, my kb is broken!!! Please fix it asap"
+    },
+    {
+      "name": "jannek",
+      "header": "broken display",
+      "description" : "Hello, my display is broken!!! Please fix it asap"
+    }
+  ]
+}

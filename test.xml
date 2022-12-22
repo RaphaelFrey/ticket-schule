@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tickets>
+	<Ticket>
+		<Owner>raphael</Owner>
+		<Title>broken mouse</Title>
+		<Description>Hello, my mouse is broken!!! Please fix it asap</Description>
+	</Ticket>
+	<Ticket>
+		<Owner>daniel</Owner>
+		<Title>broken keyboard</Title>
+		<Description>Hello, my kb is broken!!! Please fix it asap</Description>
+	</Ticket>
+	<Ticket>
+		<Owner>jannek</Owner>
+		<Title>broken display</Title>
+		<Description>Hello, my display is broken!!! Please fix it asap</Description>
+	</Ticket>
+</Tickets>

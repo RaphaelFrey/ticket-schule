@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tickets>
+	<Ticket>
+		<Owner>raphael</Owner>
+		<Title>broken mouse</Title>
+		<Description>Hello, my mouse is broken!!! Please fix it asap</Description>
+		<date>22.12.2022 21:38:29</date>
+		<state>Open</state>
+	</Ticket>
+	<Ticket>
+		<Owner>daniel</Owner>
+		<Title>broken keyboard</Title>
+		<Description>Hello, my kb is broken!!! Please fix it asap</Description>
+		<date>22.12.2022 21:38:29</date>
+		<state>Open</state>
+	</Ticket>
+	<Ticket>
+		<Owner>jannek</Owner>
+		<Title>broken display</Title>
+		<Description>Hello, my display is broken!!! Please fix it asap</Description>
+		<date>22.12.2022 21:38:29</date>
+		<state>Open</state>
+	</Ticket>
+</Tickets>
