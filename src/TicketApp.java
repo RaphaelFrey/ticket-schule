@@ -22,7 +22,7 @@ public class TicketApp {
         while(true) {
             System.out.print(getPrefix(username) + "Do you want to add (a = default) a ticket, read ticket/s from a file (r), " +
                     "print all tickets (p) or quit the application (q)? : ");
-            input = scanner.nextLine();
+            input = scanner.nextLine().trim();
             if (input.equalsIgnoreCase("r")) {
                 readTicketFromFile(username, scanner);
 
@@ -81,7 +81,7 @@ public class TicketApp {
         switch (extension) {
             case "json" -> ticketsList = json.parse(file);
             case "xml" -> ticketsList = xml.parse(file);
-            case "txt" -> ticketsList = csv.parse(file);
+            case "csv" -> ticketsList = csv.parse(file);
             default -> {
             }
         }

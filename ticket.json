@@ -4,7 +4,63 @@
     "name": "raphael",
     "heading": "broken mouse",
     "description": "Hello, my mouse is broken!!! Please fix it asap",
-    "date": "22.12.2022 21:45:24",
+    "date": "22.12.2022 22:01:25",
+    "status": "Open"
+  },
+  {
+    "name": "daniel",
+    "heading": "broken keyboard",
+    "description": "Hello, my kb is broken!!! Please fix it asap",
+    "date": "22.12.2022 22:01:25",
+    "status": "Open"
+  },
+  {
+    "name": "jannek",
+    "heading": "broken display",
+    "description": "Hello, my display is broken!!! Please fix it asap",
+    "date": "22.12.2022 22:01:25",
+    "status": "Open"
+  },
+  {
+    "name": "raphael",
+    "heading": "broken mouse",
+    "description": "Hello, my mouse is broken!!! Please fix it asap",
+    "date": "22.12.2022 22:01:32",
+    "status": "Open"
+  },
+  {
+    "name": "daniel",
+    "heading": "broken keyboard",
+    "description": "Hello, my kb is broken!!! Please fix it asap",
+    "date": "22.12.2022 22:01:32",
+    "status": "Open"
+  },
+  {
+    "name": "jannek",
+    "heading": "broken display",
+    "description": "Hello, my display is broken!!! Please fix it asap",
+    "date": "22.12.2022 22:01:32",
+    "status": "Open"
+  },
+  {
+    "name": "raphael",
+    "heading": "broken mouse",
+    "description": "Hello",
+    "date": "22.12.2022 22:01:43",
+    "status": "Open"
+  },
+  {
+    "name": "daniel",
+    "heading": "broken keyboard",
+    "description": "Hello",
+    "date": "22.12.2022 22:01:43",
+    "status": "Open"
+  },
+  {
+    "name": "jannek",
+    "heading": "broken display",
+    "description": "Hello",
+    "date": "22.12.2022 22:01:43",
     "status": "Open"
   }
  ]

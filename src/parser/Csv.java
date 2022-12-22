@@ -23,7 +23,7 @@ public class Csv extends Parsers {
                     line = bufferedReader.readLine();
                     continue;
                 }
-                ArrayList<String> ticket = new ArrayList<>(Arrays.asList(line.split(",")));
+                ArrayList<String> ticket = new ArrayList<>(Arrays.asList(line.split(";")));
                 for (String t : ticket) {
                     t = t.trim();
                 }
@@ -40,16 +40,16 @@ public class Csv extends Parsers {
     @Override
     public void write(Ticket[] tickets) {
 
-        File neueTickets = new File("newTickets.txt");
+        File neueTickets = new File("newTickets.csv");
         try {
             FileWriter myWriter = new FileWriter(neueTickets);
-            String kopf = "autor, titel, beschreibung, datum, status";
+            String kopf = "autor; titel; beschreibung; datum; status";
             myWriter.write(kopf);
             for (Ticket ticket: tickets) {
-                String line = ticket.getOwner() + ","
-                        + ticket.getHeading() + ","
-                        + ticket.getDescription() + ","
-                        + ticket.getTimestamp() + ","
+                String line = ticket.getOwner() + ";"
+                        + ticket.getHeading() + ";"
+                        + ticket.getDescription() + ";"
+                        + ticket.getTimestamp() + ";"
                         + ticket.getTicketStatus();
                 myWriter.write(System.lineSeparator());
                 myWriter.write(line);
